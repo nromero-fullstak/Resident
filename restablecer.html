@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Registration</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    ><style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+
+        .page-footer {
+            padding-left: 50px;
+            /* Ajusta este valor según tus necesidades */
+        }
+
+
+
+        .section-container {
+            display: flex;
+            margin-top: 3%;
+            justify-content: center;
+           
+        }
+
+        #login-page {
+            width: 500px;
+        }
+
+        .card {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+        }
+
+        #remember-me {
+            position: relative;
+            top: 3px;
+            /* Ajusta la posición vertical según tus necesidades */
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="black">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo" style="font-size: small;">residentregistration@gmail.com<i
+                        class="material-icons">mail_outline</i></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="https://fb.com"><i class="material-icons">facebook</i> Facebook</a></li>
+                    <li><a href="https://instagram.com"><i class="material-icons">linked_camera</i>Instagram</a></li>
+                    <li><a href="https://x.com"><i class="material-icons">cancel</i></a>X</li>
+                    <li><a href="Index.html"><i class="material-icons">home</i>Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="white">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo green-text text-darken-2" style="font-size: 250%;">RESIDENT
+                    REGISTRATION</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li id="Ini"><a href="inicio.html" class="green-text text-darken-2"
+                            style="font-size: 150%;">Inicio</a></li>
+                    <li><a href="beneficios.html" class="green-text text-darken-2" style="font-size: 150%;">
+                            Beneficios</a></li>
+                    <li><a href="contacto.html" class="green-text text-darken-2" style="font-size: 150%;">Contacto</a>
+                    </li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-trigger green-text text-darken-2" style="font-size: 150%;" href="#!"
+                            data-target="dropdown1">Servicios
+                            <i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Control y Autorizacion de Mudanzas</a></li>
+            <li><a href="#!">Envio e impresion de Avisos de Cobro</a></li>
+            <li><a href="#!">Pronto Pago<br>
+                    10%</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Plataforma <br>
+                    24/7</a></li>
+        </ul>
+    </nav>
+    <!--otro formulario-->
+    <div class="section-container center-align">
+        <div class="row">
+            <form class="col s12">
+                <div class="row card-panel">
+                    <h2 class="black-text text-darken-4 center-align" style="font-size: 250%;">Restablecer Contraseña
+                    </h2>
+                    <p class=" black-text text-darken-2 center-align" style="font-size: 150%;">Introduce tu correo
+                        electronico y te enviaremos una<br> nueva contraseña.</p>
+                    <div class="input-field col s12">
+                        <input id="email" Placeholder="ingresa tu correo" type="text" class="validate" required>
+                        <label for="last_name">Correo Electronico</label>
+                    </div>
+                    <button class="btn" type="submit"> Enviar</button>
+                    <p class="black-text text-darken-2 center-align" style="font-size: 100%;">
+                        ¿Recordar Contraseña? <a href="ingresar.html">Inicio de Sesión</a>
+                      </p>
+                      
+                </div>
+                
+            </form>
+
+        </div>
+
+    </div>
+
+    <!--fin formulario-->
+    <div class="text center-align col s12">
+
+        <img src="Logo1.png">
+        <a href="contacto.html">
+        <h1 class="center-align green-text text-darken-2 z-depth-1" style="font-size: 250%;">Contactanos para mas
+            informacion.</h1></a>
+    </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="hands-1063442_1920.jpg"></div>
+    </div>
+
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header green-text text-darken-4 center-align" style="font-size: 200%;">ADMINISTRACION DE
+                PROPIEDAD HORIZONTAL</h2>
+            <p class="green-text text-darken-3 lighten-3 center-align" style="font-size: 150%;">Resident Registration
+                mejora la experiencia entre el administrador y el residente.
+                Pruébalo y olvídate de los problemas de comunicación y transparencia.</p>
+        </div>
+    </div>
+
+    <!--Pie de pagina-->
+    <footer class="page-footer  grey darken-4">
+        <div class="container2">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="green-text text-darken-2 style=" font-size: 200%;>Resident Registration</h5>
+                    <p class="grey-text text-lighten-4"><i class="material-icons">add_location</i> 22F4+PV Zipaquirá,
+                        Cundinamarca </p>
+                    <p class="grey-text text-lighten-4"><i class="material-icons">call</i> 010-020-0340 </p>
+                    <p class="grey-text text-lighten-4"><i class="material-icons">mail_outline</i>
+                        residentregistration@gmail.com </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Mas Informacion</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#Ini">Sitio</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#Serv">Sobre Nosotros</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Localizacion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container2">
+                © Política de Privacidad Términos y Condiciones |
+                <a class="grey-text text-lighten-4 right" href="mailto:nelsonrb20670@gmail.com">By NRomero</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            M.AutoInit();
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems,);
+        });
+    </script>
+    <script>
+        var app = angular.module('mainModule', []);
+
+        app.controller('mainController', function ($scope, $http) { //o scope liga o js e o template
+            $scope.nome = 'Valor Inicial';
+            //$http.get().success();
+            $scope.reset = function () {
+                $scope.nome = '';
+            }
+        });
+    </script>
+</body>
+
+</html>
